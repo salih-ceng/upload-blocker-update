@@ -2,7 +2,7 @@
 <gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
   <app appid="ecikooodpgkdndcekfkiljfgcdagkkff">
     <updatecheck
-      codebase="https://salih-ceng.github.io/REPO_NAME/upload_blocker_ext.crx"
+      codebase="https://salih-ceng.github.io/upload-blocker-update/upload-blocker-test.crx"
       version="1.0.0" />
   </app>
 </gupdate>
