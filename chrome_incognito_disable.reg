@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; === Chrome Gizli Modu KAPAT ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"IncognitoModeAvailability"=dword:00000001
+
+; === 64-bit sistemler için yedek yol ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Policies\Google\Chrome]
+"IncognitoModeAvailability"=dword:00000001
