@@ -1,16 +1,9 @@
 Windows Registry Editor Version 5.00
 
-; =====================================
-; Chrome policy root (yoksa oluşturulur)
-; =====================================
-
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
 "IncognitoModeAvailability"=dword:00000001
-
-
-; =====================================
-; Force-installed extension
-; =====================================
+"BrowserGuestModeEnabled"=dword:00000000
+"BrowserAddPersonEnabled"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallForcelist]
 "1"="kdcchnldpdjgnbdhpbeeefckbpbemieh;https://clients2.google.com/service/update2/crx"
